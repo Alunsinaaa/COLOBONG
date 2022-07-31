@@ -1,0 +1,396 @@
+<!DOCTYPE html >
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	
+	<title>College Website</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
+	<style type="text/css">
+
+	body{
+		margin:0;
+		padding: 0;
+
+
+	}
+	.ucubg img{
+		position: relative;
+		top: 20px;
+		left: 75px;
+	}
+	.ucubg h1{
+		position: absolute;
+		left: 140px;
+		top:   30px;
+		color: #fff;
+		font-family: College;
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+
+	.header{
+		min-height: 100vh;
+		width: 100%;
+		background-image: linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.7)),url(ucuimage/ucubg2.jpg);
+		background-position: center;
+		background-size: cover;
+		position: relative;
+	}
+	
+	nav {
+		display: flex;
+
+		padding: 2% 6%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	
+	.nav-links{
+		flex: 1;
+		text-align: right;
+	}
+	.nav-links ul li{
+		list-style: none;
+		display: inline-block;
+		padding: 8px 12px;
+		position: relative;
+	}
+	.nav-links ul li a{
+		color: #fff;
+		text-decoration: none;
+		font-family: Calibri Light;
+	
+	}
+	li{
+		bottom:  100px;
+	}
+	.nav-links  ul li::after {
+		content: '';
+		width: 0%;
+		height: 2px;
+		background: #b3ecff;
+		display: block;
+		margin: auto;
+		transition: 0.5s;
+	}
+	.nav-links  ul li:hover::after{
+		width: 100%;
+	}
+	.text-box{
+		width: 50%;
+		color: #fff;
+		position: absolute;
+		top: 52%;
+		left: 500px;
+		transform: translate(-50%,-50%);
+		
+		font-family: Calibri Light;
+		text-align: left;
+	}
+	.text-box a{
+		text-decoration: none;
+		color: #fff;
+		
+		border-radius: 5px;
+		/*background-color: #80d4ff;*/
+		padding: 5px;
+		position: relative;
+		top: 10px;
+		background: transparent;
+		cursor: pointer;
+		border: 1px solid #fff;
+		
+
+	}
+	.text-box a:hover{
+		background:#b3ecff;
+		color: black;
+		padding:  5px;
+		transition: 1s;
+	}
+
+	.text-box h1{
+		font-size: 35px;
+		font-family: Century Gothic;
+	}
+	.text-box h3{
+		position: relative;
+		font-family: Calibri Light;
+		font-size: 15px;
+	}
+
+	.text-box p{
+		width: 550px;
+
+	}
+	.verticalline {
+		width: 1px;
+		height: 280px;
+		background-color: #fff;
+		position: absolute;
+		right:   800px;
+		bottom:  30px;
+	}
+	.logo1 img{
+		position: absolute;
+		margin-left: 750px;
+		bottom:   120px;
+	}
+
+	/*------ course -----*/
+
+	.subject{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		padding-top: 100px;
+	} 
+	h1{
+		font-size: 36px;
+		font-weight: 600;
+		font-family: Open Sans Condensed;
+	}
+	.subject p{
+		color: #777;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 22px;
+		padding: 10px;
+	}
+	.subject-col p{
+		color: #777;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 22px;
+		padding: 10px;
+	}
+	.subject-col h3{
+		font-family: Open Sans Condensed;
+		text-align: center;
+		font-weight: 600;
+		margin: 10px 0;
+
+	}
+	.row{
+		margin-top: 5%;
+		display: flex;
+		justify-content: space-between;
+
+
+	}
+	.subject-col{
+		flex-basis: 31%;
+		background: #e6ffff;
+		border-radius: 10px;
+		margin-bottom: 5%;
+		padding: 20px 12px;
+		box-sizing: border-box;
+		transition: 0.5s;
+	}
+	.secondrow{
+
+		display: flex;
+		justify-content: space-between;
+		bottom:  30px;
+		position: relative;
+	}
+	.subject-col:hover{
+		transform:  scale(1.1);
+	}
+	.campus{
+		width: 80%;
+		margin: auto;
+		text-align: center;
+		padding-top: 50px;
+		color: #fff;
+
+	}
+	.campus  {
+		min-height: 30vh;
+		width: 90%;
+
+		background-image: linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.7)),url(Goals/gradpic.jpeg);
+		background-position: center;
+		background-size: cover;
+		position: relative;
+	}
+/*	.goal_one h3{
+		
+		position: relative;
+		top: 150px;
+		color: black;
+		font-family: century Gothic;
+		right: 530px;
+	}*/
+	.goal_one h3{
+		font-family: century Gothic;
+		margin-top: 50px;
+		margin-left: 70px;
+		
+	}
+	.goal_one p{
+		margin-left: 70px;
+		font-family: arial;
+		color: #666666;
+		width: 80%;
+
+	}
+	.listsent li{
+		margin-left: 100px;
+		font-family: arial;
+		color: #666666;
+	}
+	.contactlist li{
+
+	}
+
+
+
+
+
+	
+	</style>
+</head>
+
+<body>
+	<section class="header">
+		<div class="ucubg">
+		<img src="ucuimage/3.png" height="75" width="55">
+		<h1>Urdaneta City <br> University</h1>
+		</div>
+		<nav>
+			
+			<div class="nav-links">
+				<ul>
+					<li><a href="CollegeWebsite.html" 	class="cool">HOME</a></li>
+				
+					<li><a href="ITteacher.html"		class="cool">IT TEACHER</a></li>
+					<li ><a href="contact.html"			class="">CONTACT & SERVICES</a></li>
+						
+				</ul>
+			</div>
+		</nav>
+
+		<div class="logo1">
+			<img src="ucuimage/logo1.png" height="510" width="600">
+		</div>
+		<div class="text-box">
+			<h3>BRIGHT FUTURE STARTS HERE</h3>
+			<h1>College of Information and <br> Technology education</h1>
+			<p>Bachelor of Science in Information Technology (BSIT) Program aims to produce students whose knowledge and competence in planning, installing, customizing, operating, managing, administering, and maintaining information technology infrastructure are grounded on the effective utilization of computers and computer software and thus enabling them to contribute worthwhile IT solutions to the business communities all over the world.</p>
+			<div class="verticalline"></div>
+			<a href="https://ucu.edu.ph/" target="_blank">Visit us to know more</a>
+		</div>
+
+</section>
+
+<!------ Course ------->
+
+<section class="subject">
+	<h1>What is Cybersecurity</h1>
+	
+
+	<div class="row">
+		<div class="subject-col">
+			<h3>What Is Cybersecurity?</h3>
+			<p>Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks. These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.</p>
+		</div>
+		<div class="subject-col">
+			<h3>What is cybersecurity all about?</h3>
+			<p>A successful cybersecurity approach has multiple layers of protection spread across the computers, networks, programs, or data that one intends to keep safe. In an organization, the people, processes, and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection, investigation, and remediation.</p>
+		</div>
+		<div class="subject-col">
+			<h3>People</h3>
+			<p>Users must understand and comply with basic data security principles like choosing strong passwords, being wary of attachments in email, and backing up data. Learn more about basic cybersecurity principles.</p>
+		</div>
+		
+	</div>
+	<!------- 2nd row ------->
+	<div class="secondrow">
+		<div class="subject-col">
+			<h3>Processes</h3>
+			<p>Organizations must have a framework for how they deal with both attempted and successful cyber attacks. One well-respected framework can guide you. It explains how you can identify attacks, protect systems, detect and respond to threats, and recover from successful attacks. Watch a video explanation of the NIST cybersecurity framework (1:54)</p>
+		</div>
+		<div class="subject-col">
+			<h3>Technology</h3>
+			<p>Technology is essential to giving organizations and individuals the computer security tools needed to protect themselves from cyber attacks. Three main entities must be protected: endpoint devices like computers, smart devices, and routers; networks; and the cloud. Common technology used to protect these entities include next-generation firewalls, DNS filtering, malware protection, antivirus software, and email security solutions.</p>
+		</div>
+		<div class="subject-col">
+			<h3>Why is cybersecurity important?</h3>
+			<p>In today’s connected world, everyone benefits from advanced cyberdefense programs. At an individual level, a cybersecurity attack can result in everything from identity theft, to extortion attempts, to the loss of important data like family photos. Everyone relies on critical infrastructure like power plants, hospitals, and financial service companies. Securing these and other organizations is essential to keeping our society functioning.
+
+Everyone also benefits from the work of cyberthreat researchers, like the team of 250 threat researchers at Talos, who investigate new and emerging threats and cyber attack strategies. They reveal new vulnerabilities, educate the public on the importance of cybersecurity, and strengthen open source tools. Their work makes the Internet safer for everyone.</p>
+		</div>
+	</div>
+	
+</section>
+
+<!------ campus ------>
+
+<section class="campus">
+
+	<h1>Cybersecurity threats</h1>
+</section>
+
+
+
+
+<section>
+	<div class="goal_one">
+		<h3>1. Social Engineering</h3>
+		<p>Social engineering attacks exploit social interactions to gain access to valuable data. At the root of all social engineering attacks is deception. Cyber criminals trick and manipulate their targets into taking certain actions, such as bypassing security measures or disclosing certain sensitive information. Even the best cyber security systems can’t stop a social engineering attack, because the target lets the hacker into the system. Experts say social engineering attacks are on the rise, which is why we’ve listed it as a top threat.</p>
+
+		<h3>2. Third Party Exposure</h3>
+		<p>Many retailers use third parties for services such as payment processing. As such, they often believe liability for a third party breach does not apply to them. In reality, using a third party vendor does not absolve them of responsibility for a data breach.</p>
+
+		<h3>3. Patch Management</h3>
+		<p>Many attacks start with outdated software. For this reason, not staying up-to-date with software patches leaves companies vulnerable to any number of information security breaches. As soon as attackers learn of a software vulnerability, they can exploit it to launch a cyber attack. Two large-scale cyber attacks launched starting in May 2018 illustrate this trend in cyber security. The attacks exploited a critical weakness in the Windows operating system known as Eternal Blue. Crucially, Microsoft had released a patch for the Eternal Blue vulnerability two months earlier. Organizations that did not update their software were left exposed. Millions of dollars were lost over a simple lapse in updating software.</p>
+
+		<div class="goal_one">
+		<h3>4. Cloud Vulnerabilities</h3>
+		<p>The more we rely on the cloud for data storage, the higher the risk of a major data breach. Cloud services are vulnerable to a wide range of cyber attacks. This includes account hijacking and Denial of Service (DoS) attacks, which prevent companies from being able to access their data. Many businesses believe they are secure because they use cloud security technology. In reality, technology is only part of the solution. Because no technology can completely eliminate vulnerabilities, a holistic approach is needed for robust protection. Insurance is an important piece of that protection as part of a comprehensive cyber risk management plan.</p>
+
+		<h3>5. Ransomware (and Ransomware-as-a-Service)</h3>
+		<p>Ransomware attacks are a serious cyber threat. These attacks infect your network and hold your data and computer systems hostage until a ransom is paid. The immediate losses from the ransom are only the tip of the iceberg. The monetary damages from lost productivity and data loss are often the most destructive to a business. Attacks like these are why 60% of small businesses go out of business within six months of a cyber breach.Ransomware is among the top 10 cyber attacks and is a popular way for attackers to target businesses. This won’t change any time soon; according to the U.S. Department of Homeland Security, ransomware attacks have been increasing across the globe. Additionally, ransomware is now available to less sophisticated hackers in the form of ready-made kits they can buy, known as Ransomware-as-a-Service. This is being used to target primarily small businesses due to their typically weaker cyber security measures. The result has been a rising frequency of attacks with reduced individual cost, as hackers want quick paydays from their hacks. The ease of pulling off these attacks, and the large number of hackers poses an enormous risk to small businesses.</p>
+
+	
+	</div>
+</section>
+
+
+
+
+<section class="campus">
+
+	<h1>Cybersecurity management strategies.</h1>
+</section>
+
+
+
+
+<section>
+	<div class="goal_one">
+		<h3>1. Create a security system</h3>
+		<p>Unlike traditional administrative structures where operations and enforcement of rules are handled from the top-down, creating a security system using your human capital will need to be organized from the bottom-up. This security system to protect your enterprise starts by securing devices your employees use in your business. Work on creating a culture of accountability so everyone will communicate with systems don’t seem to being working as intended.</p>
+
+		<h3>2.Increase your employee skillset </h3>
+		<p>Your cybersecurity is only as strong as its weakest link. Regularly train your team on the latest IT best practices. Help them understand that their efforts are critical to protecting company assets and that it’s in their best interest to increase their IT knowledge base regardless of whether they’re a software developer or a marketing specialist. While it may be expensive upfront, paying for coding boot camps for your employees is a worthwhile investment.</p>
+
+		<h3>3. Backup your data</h3>
+		<p>Just like the best YouTubers constantly create backups of video footage they record, you need to constantly backup your organization’s data. Always backup your data, files and any electronic information that is vital to your business as well as the most recent drafts/iterations of projects your team is working on.</p>
+
+		<div class="goal_one">
+		<h3>4. Put the cloud to work</h3>
+		<p>Although the cloud still has its risks, you are less likely to lose critical data by saving data to the cloud. Using the cloud for data storage is an economical option for small to mid-sized businesses. As smaller businesses scale and grow as result of increased sales, cloud storage and cloud security tools can scale with the business. Cloud options are continuously improving so your business can be sure to always have the latest options for storage and cyber security.</p>
+
+		<h3>5. Invest in your IT infrastructure</h3>
+		<p>Install antivirus programs and firewalls on your computers. Firewalls will discourage the average cybercriminal seeking to do damage your company. Regularly update your computer security systems. Don’t be shy when it comes to investing in your IT infrastructure.</p>
+
+	
+	</div>
+</section>
+
+</body>
+</html>

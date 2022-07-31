@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
+	<style type="text/css">
+		
+		.header{
+		min-height: 60vh;
+		width: 100%;
+		background-image: linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.7)),url(about/grad.jpg);
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+	    right: -0px;
+	    top: 0;
+
+	}
+	.ucugrad img{
+		position: relative;
+		top: 20px;
+		left: 75px;
+	}
+	.ucugrad h1{
+		position: absolute;
+		left: 140px;
+		top:   30px;
+		color: #fff;
+		font-family: College;
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+	nav {
+		display: flex;
+
+		padding: 2% 6%;
+		justify-content: space-between;
+		align-items: center;
+	}
+	nav li {
+		bottom:    100px;
+	}
+	.nav-links{
+		flex: 1;
+		text-align: right;
+	}
+	.nav-links ul li{
+		list-style: none;
+		display: inline-block;
+		padding: 8px 12px;
+		position: relative;
+	}
+	.nav-links ul li a{
+		color: #fff;
+		text-decoration: none;
+		font-family: Calibri Light;
+	
+	}
+	.nav-links  ul li::after {
+		content: '';
+		width: 0%;
+		height: 2px;
+		background: #b3ecff;
+		display: block;
+		margin: auto;
+		transition: 0.5s;
+	}
+	.nav-links  ul li:hover::after{
+		width: 100%;
+	}
+
+	/*------ Core Values -----*/
+
+	.corevalues{
+		width: 100%;
+		margin: auto;
+		margin-top: 150px;
+		text-align: center;
+		font-size: 35px;
+		font-family:College;
+		margin-bottom: 50px;
+		
+	}
+	.core-col{
+
+		flex-basis: 32%;
+		
+		margin-bottom: 30px;
+		position: relative;
+		overflow: hidden;
+	}
+	.core-col img{
+		height: 290px;
+		width: 340px;
+		border-radius: 10px;
+		margin-left: 20px;
+		
+	}
+	.layer h3{
+		text-align: center;
+	}
+	.layer{
+		background: transparent;
+		height: 290px;
+		width: 340px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: 0.5s;
+		border-radius: 10px;
+		margin-left: 20px;
+	}
+	.layer:hover{
+		background: rgba(0, 119, 179, 0.7);
+		border-radius: 10px;
+	}
+	.firstrow{
+		display: flex;
+		justify-content: space-between;	
+	}
+	.layer h3{
+		width: 100%;
+		font-weight: 500;
+		color: #fff;
+		font-size: 26px;
+		bottom: -20px;
+		left: 50%;
+		transform: translateX(-50%);
+		position: absolute;
+		font-family: century Gothic;
+		opacity: 0;
+		transition: 0.5s;
+	}
+	.layer:hover h3{
+		bottom: 49%;
+		opacity: 1;
+	}
+	
+
+	/*------ UCU About Us -----*/
+	
+
+	.abt-textbox{
+		
+		color: #fff;
+		bottom: 50px;
+		position: relative;
+		font-size: 25px;
+		font-family: Century Gothic;
+		text-align: center;
+	}
+
+	.abt h1{
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		font-size: 35px;
+		font-family:College;
+		
+	} 
+	.abt{
+		width: 100%;
+		margin: auto;
+		text-align: left;
+		padding-top: 500px;
+	} 
+	.row p{
+		font-size: 17px;
+		width: 63%;
+		top: 30px;
+		position: relative;
+		margin-left: 275px;
+		text-align: justify;
+		word-spacing: 4px;
+		font-family: sans-serif;
+		line-height: 1.3;
+		color: #666666;
+
+	
+	}
+	.row img{
+		position: absolute;
+		top: 590px;
+		left: 45px;
+		height: 200px;
+		border-width:  5px;
+		border: 1px  solid ;
+		padding-bottom: 80px;
+	}
+	.pangalawa img{
+		position: absolute;
+		height: 300px;
+		left:  1270px;
+		top: 585px;
+		border-width:  5px;
+		border: 1px  solid ;
+		padding-bottom:  75px;
+
+	}
+	.ucucap p{
+		position: absolute;
+		top:  795px;
+		left: 50px;
+		font-size: 0.810em;
+		font-family: arial;
+		font-style: italic;
+
+	}
+	.pedrooratacap p{
+		position: absolute;
+		top:  891px;
+		left:  1275px;
+		font-size: 0.820em;
+		font-family: arial;
+		font-style: italic;
+	}
+	.una img{
+		position: absolute;
+		top: 590px;
+		left: 45px;
+		height: 200px;
+		border-width:  5px;
+		border: 1px  solid ;
+		padding-bottom: 80px;
+	}
+	.vmgo h1{
+		width: 100%;
+		margin: auto;
+		margin-top: 150px;
+		text-align: center;
+		font-size: 35px;
+		font-family:College;
+	}
+	.vmgoparag{
+		text-align: center;
+		font-family:Century Gothic;
+		font-size: 22px;
+		font-weight: bold;
+
+	}
+	.bfsh{
+		font-family:Century Gothic;
+		font-size: 22px;
+		position: relative;
+		top: 40px;
+	}
+	.gp{
+		font-family:Century Gothic;
+		font-size: 22px;
+		margin-top: 50px;
+	}
+	.vmgo p{
+		font-family:arial;
+		line-height: 1.2;
+		color: #666666;
+	}
+	.numbering p{
+		margin-left: 30px;
+		font-family:arial;
+		width: 85%;
+	}
+	.vision{
+		font-family:Century Gothic;
+		font-size: 22px;
+	}
+	.mission{
+		font-family:Century Gothic;
+		font-size: 22px;
+	}
+	.goals{
+		font-family:Century Gothic;
+		font-size: 22px;
+	}
+	.objectives{
+		font-family:Century Gothic;
+		font-size: 22px;
+	}
+
+
+	
+
+	</style>
+</head>
+
+
+
+<body>
+	<section class="header">
+		<div class="ucubg">
+		<img src="ucuimage/3.png" height="75" width="55">
+		<h1>Urdaneta City <br> University</h1>
+		</div>
+
+	<nav>
+			
+			<div class="nav-links">
+				<ul>
+					<li><a href="CollegeWebsite.html" 		class="cool">HOME</a></li>
+					<li><a href="About.html"				class="cool">ABOUT</a></li>
+					<li><a href="ITteacher.html"			class="cool">IT TEACHER</a></li>
+					<li ><a href="contact.html"			class="">CONTACT & SERVICES</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="abt-textbox">
+			<h1>About Us</h1>
+		</div>
+
+	</section>
+
+<!------ About us btm------>
+
+	<section class="abt">
+		<h1>History of Urdaneta</h1>
+		<div class="row">
+			<div class="history-col">
+				
+			<p>Urdaneta City University (UCU) started as a rewarding concept of Dr. Pedro T. Orata, world renowned educator and a Ramon Magsaysay awardee, to establish a community college. It started maximizing available resources to provide education to knowledge-hungry youth and young adults, believing on the principle of education for all. Indeed, its humble beginning contrasts with its current status as a fast growing and pioneer local university in the province of Pangasinan. <br><br>
+
+ 
+
+ 			As the first community college in the Philippines, UCU, formerly known as the City Colleges of Urdaneta (CCU) and Urdaneta Community College (UCC), is a concrete and genuine proof of Dr. Orata's solid expression of his great love, faith, and concern for the poor but capable and deserving Filipino youth who cannot afford collegiate schooling in the cities. Believing that the rural people are entitled to equal opportunities and access to higher education with those in the cities, he founded Urdaneta Community College in 1966 with the support of Mayor Amadeo R. Perez Jr. and the Sangguniang Bayan using the proceeds of the 1966 town fiesta celebration. Noteworthy was the contribution of Dr. Leoncio Ancheta, first dean of UCC who assisted Dr. Orata in laying the groundwork for the College's formal operations. Patterned after the community colleges in the United States of America, the College started with an enrolment of one hundred forty-four (144) students who came from the rural areas. Apparently, most of the first students earned their way through college by driving tricycles before and after classes, working in the farms, and serving as part-time maids and salesladies.</p>
+			</div>
+
+		
+			<!--
+			<div class="una">
+			<img  src="about/ucuhistorylogo.jpg">
+			<div class="ucucap">
+			<p>The logo of Urdaneta Community <br> College (now Urdaneta City  <br> University)	
+			</p>
+			</div>
+			</div>
+			-->
+			
+				
+	
+
+		</div>
+
+		<div class="una">
+			<img  src="about/ucuhistorylogo.jpg">
+			<div class="ucucap">
+			<p>The logo of Urdaneta Community <br> College (now Urdaneta City  <br> University)	
+			</p>
+			</div>
+			</div>
+
+
+			<div class="pangalawa">
+			<img src="about/Dr.pedroorata.jpg">
+				<div class="pedrooratacap">
+					<p>Portrait of young Dr. Pedro T.<br> Orata from the University of<br> Illinois Class of 1924 Yearbook.</p>
+				</div>
+			</div>
+
+	</section>
+
+	<!------ Core Values ------>
+
+	<section>
+		<h1 class="corevalues">Core Values</h1>
+
+		<div class="firstrow">
+		<div class="core-col">
+			<img src="corevalues/integritytwo.jpg" >
+			<div class="layer">
+				<h3>INTEGRITY</h3>
+			</div>
+		</div>
+		<div class="core-col">
+			<img src="corevalues/competencetwo.jpg" >
+			<div class="layer">
+				<h3>COMPETENCE</h3>
+			</div>
+		</div>
+		
+
+		
+		<div class="core-col">
+			<img src="corevalues/teamworktwo.jpg" >
+			<div class="layer">
+				<h3>TEAMWORK</h3>
+			</div>
+		</div>
+		<div class="core-col">
+			<img src="corevalues/transcendencetwo.jpg" >
+			<div class="layer">
+				<h3>TRANSCENDENCE</h3>
+			</div>
+		</div>
+		</div>
+		
+		
+	
+
+
+
+
+	</section>
+
+	<!------ VMGO btm------>
+
+	<section class="vmgo">
+		
+		<h1>VMGO</h1>
+		<h4 class="vmgoparag">Vision Mission Goals Objective</h4>
+		<h3 class="bfsh">Bright future starts here</h3> <br>
+		<h3 class="gp">Guiding Philosophy</h3>
+		
+		<p>Urdaneta City University adheres to the educational worldview set forth by its founding father Dr Pedro T Orata that</p>
+
+		<div class="numbering">
+		<p>1 Education contributes much to the development of an individual and the society in which he lives</p>
+		<p>2 It is possible to make education available and accessible to all people in all walks of life both in urban and rural areas</p>
+		<p>3 The education provided will determine the quality of life of the people and the progress of the nation and</p>
+		<p>4 The institution shall provide such kind of education and development which are congruent to the national development Goals</p>
+		</div>
+		
+
+		<h3 class="vision">Vision</h3>
+		<p>A leading university that transforms individuals into morally upright and globally competitive professionals through quality and practical education for all</p>
+
+		<h3 class="mission">Mission</h3>
+		<p>To provide exemplary outcomesbased and advanced instructions socially relevant and innovative researches and inclusive extension services partnerships andor linkages</p>
+
+		<div class="numbering">
+		<h3 class="goals">Goals</h3>
+		<p><b>Instruction</b><br>
+		Instill formation of knowledge abilities skills and attitudes necessary to make an individual a responsible member of the society enhance the development of instruction to produce highlevel professionals and harness the productive capacity of the countrys human resource base toward international competitiveness</p>
+
+		<p><b>Research</b><br>
+		Mold individuals who will conduct scientific innovative and advanced researches in the quest for new knowledge provide leadership in various fields toward dynamic and selfsustaining economy and enrich historical and cultural heritage</p>
+
+		<p><b>Community Services</b><br>
+		Undertake participatory and inclusive extension services which are relevant and responsive accessible and equitable through efficient and effective community development programs and broaden symbiotic partnerships and linkages to establish intergenerational responsibility for the common good</p>
+		</div>
+
+		<h3 class="objectives">Objectives</h3>
+		<p>To provide exemplary outcomesbased and advanced instructions socially relevant and innovative researches and inclusive extension services partnerships andor linkages</p>
+
+		<div class="numbering">
+		<p>1 To provide professional technical and expert instruction in arts sciences humanities and technology</p>
+		<p>2 To conduct systematic investigations geared toward the establishment and discovery of novel facts solve present or existing problems provide new ideas or develop new theories satisfy curiosity and have mastery of nature</p>
+		<p>3 To establish sustainable livelihood projects that will uplift the quality of life of the members of the community and to expand transnational collaborations that will have socioeconomic benefits to the present and future generations</p>
+
+		</div>
+
+		
+
+
+	</section>
+
+</body>
+</html>
